@@ -1,0 +1,150 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    background-color: #EFEEEE;
+    width: 1280px;
+    position: relative;
+}
+/*Cabeçalho*/
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.25);
+    z-index: 10;
+}
+
+.container__logo {
+    margin-left: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.logo {
+    padding: 1rem;
+}
+
+.cabecalho__botao {
+    display: flex;
+    width: 159px;
+    height: 33px;
+    background-color: var(--azul-escuro);
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    transition: 0.25s all;
+}
+
+.cabecalho__botao:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.35),
+                0 0 10px rgba(0, 0, 0, 0.35),
+                0 0 15px rgba(0, 0, 0, 0.35);
+    background-color: #1F7A79;
+}
+
+.descricao__botao {
+    color: var(--branco-principal);
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 0.9px;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: var(--branco-principal);
+    text-shadow: -1px 1px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+/*Cabeçalho-fim*/
+/*Área principal-home*/
+.home__principal {
+    height: calc(100vh - 65px);
+    background-color: #1F7A79;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.container__descricao-home {
+    display: flex;
+    flex-direction: column;
+    width: 1008px;
+    height: 100%;
+    background-color: var(--verde-bem-claro);
+    transform: skew(-15deg);
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.25);
+    position: relative;
+    left: -100px;
+}
+
+.home__titulo {
+    font-size: 94px;
+    font-weight: 800;
+    line-height: 77.469%;
+    color: var(--azul-escuro);
+    transform: skew(15deg);
+    width: 667px;
+    text-shadow: -3px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 115px 0 0 180px;
+    cursor: default;
+}
+
+.home__descricao {
+    font-size: 23px;
+    font-weight: 400;
+    color: var(--preto);
+    letter-spacing: 1.38px;
+    transform: skew(15deg);
+    margin: 26px 0 63px 220px;
+    width: 530px;
+    height: 75px;
+    text-shadow: -2px 3px 4px rgba(0, 0, 0, 0.25);
+    cursor: default;
+}
+
+.home__botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    width: 504px;
+    height: 55px;
+    transform: skew(15deg);
+    margin-left: 255px;
+    border-radius: 9px;
+    background-color: var(--azul-escuro);
+    transition: 0.35s all;
+}
+
+.home__botao:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.35),
+                0 0 10px rgba(0, 0, 0, 0.35),
+                0 0 15px rgba(0, 0, 0, 0.35);
+    transform: skew(15deg);
+    background-color: #1F7A79;
+}
+
+.descricao__botao-home {
+    color: var(--branco-principal);
+    font-size: 32px;
+    letter-spacing: 1.92px;
+    margin-bottom: 4px;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: var(--branco-principal);
+}
+
+.icon-seta {
+    background: url(/media/area-descritiva-1/seta.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 48px;
+    height: 48px;
+}
+
+.foto__medica {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 525.14px;
+}

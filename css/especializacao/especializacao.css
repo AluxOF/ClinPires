@@ -1,0 +1,109 @@
+.especializacao {
+    width: 1280px;
+    height: 720px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.25),
+                0 4px 10px rgba(0, 0, 0, 0.25),
+                0 4px 15px rgba(0, 0, 0, 0.25);
+    z-index: 10;
+    background-color: #EFEEEE;
+}
+
+.container__especializacoes {
+    height: 480px;
+    background: linear-gradient(279deg, #9ECF7D -10.26%, #0A6463 103.28%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo__principal-especializacoes {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--branco-principal);
+    padding: 53px 0 37px 0;
+}
+
+.lista__especializacoes {
+    display: flex;
+    gap: 50px;
+}
+
+.item__especializacoes {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 295px;
+    border-radius: 1rem;
+    background-color: var(--branco-principal);
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.5);
+}
+
+.titulo__descricao-especializacao {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--preto);
+    padding: 0.5rem 0;
+}
+
+.descricao__especializacao {
+    font-size: 14px;
+    width: 283px;
+    height: 72px;
+    padding: 0 8px;
+    text-align: center;
+}
+
+.lista__icons-dados {
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+}
+
+.item__icons-dados {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.container__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(199deg, #9ECF7D 6.33%, #0A6463 106.54%);
+    border-radius: 14px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container__dados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dados {
+    color: var(--azul-escuro);
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.dados::before {
+    display: block;
+    content: '';
+    width: 110%;
+    height: 3px;
+    background-color: #0A6463;
+    position: relative;
+    bottom: -33px;
+    left: -5px;
+}
+
+.titulo__dado {
+    font-weight: 700;
+    color: var(--azul-escuro);
+}

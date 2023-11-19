@@ -1,0 +1,226 @@
+/*Area Serviços*/
+.principal {
+    width: 1280px;
+    height: 720px;
+    background-color: #EFEEEE;
+}
+
+.container__principal {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    padding-top: 67px;
+}
+
+.pre-titulo {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--azul-escuro);
+    text-shadow: -1px 1px 1px rgba(0, 0, 0, 0.25);
+    margin-bottom: 9px;
+}
+
+.titulo__principal-servicos {
+    color: var(--azul-escuro);
+    font-size: 35px;
+    font-weight: 700;
+    width: 213px;
+    margin-bottom: 30px;
+}
+
+.container__botao-servicos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    width: 148px;
+    height: 37px;
+    background: linear-gradient(272deg, #00C5C3 4.84%, #0A6463 85.03%);
+    border-radius: 18px;
+    transition: 0.25s all;
+}
+
+.container__botao-servicos:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px var(--sombra), 0 0 10px var(--sombra), 0 0 15px var(--sombra);
+    transform: scale(1.03);
+}
+
+.botao__servicos {
+    color: var(--branco-principal);
+    font-weight: 700;
+}
+
+.icon__seta-servicos {
+    background: url(/media/area-descritiva-1/seta.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 22px;
+    margin-top: 3px;
+}
+
+.desing__grafico-servicos-1 {
+    position: absolute;
+    top: 30px;
+    left: 450px;
+    z-index: 1;
+}
+
+.tipo__servico-1 {
+    background-color: var(--branco-principal);
+    box-shadow: 0 0 5px var(--sombra), 0 0 10px var(--sombra), 0 0 15px var(--sombra);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+    width: 244px;
+    height: 216px;
+}
+
+.icone__home-servicos-1, .titulo__titulo-servicos-1, .descricao__servicos-1 {
+    margin-left: 1.2rem;
+}
+
+.icone__home-servicos-1 {
+    width: 44px;
+    height: 35.2px;
+    margin-top: 10px;
+    margin-bottom: 12.8px;
+}
+
+.titulo__titulo-servicos-1 {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--azul-escuro);
+    width: 151px;
+    height: 40px;
+}
+
+.descricao__servicos-1 {
+    color: var(--preto);
+    font-weight: 400;
+    font-size: 12px;
+    width: 211px;
+    height: 90px;
+    margin-top: 8px;
+}
+
+.icone__plano-servicos-2, .titulo__titulo-servicos-2, .descricao__servicos-2 {
+    margin-left: 1rem;
+}
+
+.tipo__servico-2 {
+    background-color: var(--branco-principal);
+    box-shadow: 0 0 5px var(--sombra), 0 0 10px var(--sombra), 0 0 15px var(--sombra);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    width: 277px;
+    height: 216px;
+}
+
+.icone__plano-servicos-2 {
+    width: 44px;
+    height: 35.2px;
+    margin-top: 10px;
+    margin-bottom: 12.8px;
+}
+
+.titulo__titulo-servicos-2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--azul-escuro);
+    width: 174px;
+    height: 44px;
+}
+
+.descricao__servicos-2 {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--preto);
+    width: 247px;
+    height: 72px;
+    margin-top: 8px;
+}
+
+.container__imagem-descricao-principal {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    gap: 3rem;
+}
+
+.container__imagem-principal {
+    position: relative;
+    padding: 20px;
+    z-index: 10;
+}
+
+.container__sombra-imagem-principal {
+    position: absolute;
+    top: -25px;
+    left: 110px;
+    z-index: 1;
+    padding: 20px;
+}
+
+.pre-titulo__descricao-principal {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--azul-escuro);
+    text-shadow: -1px 1px 1px rgba(0, 0, 0, 0.25);
+    margin-bottom: 15px;
+}
+
+.titulo__descricao-principal {
+    color: var(--azul-escuro);
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 9px;
+}
+
+.container__descricao-principal {
+    padding: 40px 20px 20px 20px;
+    width: 485px;
+    height: 270px;
+}
+
+.descricao__principal {
+    width: 397px;
+    margin-bottom: 39px;
+}
+
+.container__botao-descricao-principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    width: 148px;
+    height: 37px;
+    background: linear-gradient(272deg, #00C5C3 4.84%, #0A6463 85.03%);
+    border-radius: 18px;
+    transition: 0.25s all;
+}
+
+.container__botao-descricao-principal:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px var(--sombra), 0 0 10px var(--sombra), 0 0 15px var(--sombra);
+    transform: scale(1.03);
+}
+
+.botao__descricao-principal {
+    color: var(--branco-principal);
+    font-weight: 700;
+}
+
+.icon__seta-descricao-principal {
+    background: url(/media/area-descritiva-1/seta.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 22px;
+    margin-top: 3px;
+}
+/*Area serviços fim*/
