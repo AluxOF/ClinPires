@@ -34,6 +34,10 @@ body::-webkit-scrollbar-thumb {
     color: white;
 }
 
+.link__botao-pequeno {
+    width: 148px;
+}
+
 .pagina__1 {
     display: flex;
     flex-direction: column;

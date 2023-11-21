@@ -31,14 +31,16 @@
 
 .lista__procedimentos {
     display: flex;
-    gap: 44px;
+    justify-content: space-evenly;
+    translate: -26px;
+    width: 100%;
 }
 
 .item__procedimentos {
     width: 265px;
     height: 452px;
-    background-color: #D9D9D9;
-    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.25),
-                0 4px 10px rgba(0, 0, 0, 0.25),
-                0 4px 15px rgba(0, 0, 0, 0.25);
+}
+
+.instagram-media {
+    height: 502px;
 }

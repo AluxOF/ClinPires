@@ -1,6 +1,8 @@
 /*Area Serviços*/
 .principal {
-    width: 1280px;
+    min-width: 1280px;
+    max-width: 1980px;
+    width: 100vw;
     height: 720px;
     background-color: #EFEEEE;
 }
